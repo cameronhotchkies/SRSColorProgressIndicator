@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SRSCPISample' target in the 'SRSCPISample' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

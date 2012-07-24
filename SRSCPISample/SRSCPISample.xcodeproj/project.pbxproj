@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E230B3C15BF01CD006C3812 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E230B3B15BF01CD006C3812 /* Cocoa.framework */; };
+		7E230B4615BF01CE006C3812 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E230B4415BF01CE006C3812 /* InfoPlist.strings */; };
+		7E230B4815BF01CE006C3812 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E230B4715BF01CE006C3812 /* main.m */; };
+		7E230B4C15BF01CE006C3812 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7E230B4A15BF01CE006C3812 /* Credits.rtf */; };
+		7E230B4F15BF01CE006C3812 /* SRSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E230B4E15BF01CE006C3812 /* SRSAppDelegate.m */; };
+		7E230B5215BF01CE006C3812 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E230B5015BF01CE006C3812 /* MainMenu.xib */; };
+		7E230B5A15BF01CE006C3812 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E230B5915BF01CE006C3812 /* SenTestingKit.framework */; };
+		7E230B5B15BF01CE006C3812 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E230B3B15BF01CD006C3812 /* Cocoa.framework */; };
+		7E230B6315BF01CE006C3812 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E230B6115BF01CE006C3812 /* InfoPlist.strings */; };
+		7E230B6615BF01CE006C3812 /* SRSCPISampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E230B6515BF01CE006C3812 /* SRSCPISampleTests.m */; };
+		7E230B7215BF0292006C3812 /* SRSColorProgressIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E230B7115BF0292006C3812 /* SRSColorProgressIndicatorView.m */; };
+		7E230B7415BF02F9006C3812 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E230B7315BF02F9006C3812 /* QuartzCore.framework */; };
+		7E230B7615BF0311006C3812 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7E230B7515BF0311006C3812 /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E230B5C15BF01CE006C3812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E230B2E15BF01CD006C3812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E230B3615BF01CD006C3812;
+			remoteInfo = SRSCPISample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E230B3715BF01CD006C3812 /* SRSCPISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRSCPISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E230B3B15BF01CD006C3812 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7E230B3E15BF01CE006C3812 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7E230B3F15BF01CE006C3812 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7E230B4015BF01CE006C3812 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7E230B4315BF01CE006C3812 /* SRSCPISample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SRSCPISample-Info.plist"; sourceTree = "<group>"; };
+		7E230B4515BF01CE006C3812 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E230B4715BF01CE006C3812 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E230B4915BF01CE006C3812 /* SRSCPISample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SRSCPISample-Prefix.pch"; sourceTree = "<group>"; };
+		7E230B4B15BF01CE006C3812 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7E230B4D15BF01CE006C3812 /* SRSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRSAppDelegate.h; sourceTree = "<group>"; };
+		7E230B4E15BF01CE006C3812 /* SRSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRSAppDelegate.m; sourceTree = "<group>"; };
+		7E230B5115BF01CE006C3812 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7E230B5815BF01CE006C3812 /* SRSCPISampleTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRSCPISampleTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E230B5915BF01CE006C3812 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		7E230B6015BF01CE006C3812 /* SRSCPISampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SRSCPISampleTests-Info.plist"; sourceTree = "<group>"; };
+		7E230B6215BF01CE006C3812 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E230B6415BF01CE006C3812 /* SRSCPISampleTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRSCPISampleTests.h; sourceTree = "<group>"; };
+		7E230B6515BF01CE006C3812 /* SRSCPISampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRSCPISampleTests.m; sourceTree = "<group>"; };
+		7E230B7015BF0292006C3812 /* SRSColorProgressIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SRSColorProgressIndicatorView.h; path = ../../SRSColorProgressIndicatorView.h; sourceTree = "<group>"; };
+		7E230B7115BF0292006C3812 /* SRSColorProgressIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SRSColorProgressIndicatorView.m; path = ../../SRSColorProgressIndicatorView.m; sourceTree = "<group>"; };
+		7E230B7315BF02F9006C3812 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7E230B7515BF0311006C3812 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E230B3415BF01CD006C3812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E230B7415BF02F9006C3812 /* QuartzCore.framework in Frameworks */,
+				7E230B3C15BF01CD006C3812 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E230B5415BF01CE006C3812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E230B5A15BF01CE006C3812 /* SenTestingKit.framework in Frameworks */,
+				7E230B5B15BF01CE006C3812 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E230B2C15BF01CD006C3812 = {
+			isa = PBXGroup;
+			children = (
+				7E230B4115BF01CE006C3812 /* SRSCPISample */,
+				7E230B5E15BF01CE006C3812 /* SRSCPISampleTests */,
+				7E230B3A15BF01CD006C3812 /* Frameworks */,
+				7E230B3815BF01CD006C3812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E230B3815BF01CD006C3812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E230B3715BF01CD006C3812 /* SRSCPISample.app */,
+				7E230B5815BF01CE006C3812 /* SRSCPISampleTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E230B3A15BF01CD006C3812 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E230B3B15BF01CD006C3812 /* Cocoa.framework */,
+				7E230B5915BF01CE006C3812 /* SenTestingKit.framework */,
+				7E230B3D15BF01CE006C3812 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7E230B3D15BF01CE006C3812 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E230B7315BF02F9006C3812 /* QuartzCore.framework */,
+				7E230B3E15BF01CE006C3812 /* AppKit.framework */,
+				7E230B3F15BF01CE006C3812 /* CoreData.framework */,
+				7E230B4015BF01CE006C3812 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7E230B4115BF01CE006C3812 /* SRSCPISample */ = {
+			isa = PBXGroup;
+			children = (
+				7E230B6F15BF0280006C3812 /* ProgressIndicator */,
+				7E230B4D15BF01CE006C3812 /* SRSAppDelegate.h */,
+				7E230B4E15BF01CE006C3812 /* SRSAppDelegate.m */,
+				7E230B5015BF01CE006C3812 /* MainMenu.xib */,
+				7E230B4215BF01CE006C3812 /* Supporting Files */,
+			);
+			path = SRSCPISample;
+			sourceTree = "<group>";
+		};
+		7E230B4215BF01CE006C3812 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E230B7515BF0311006C3812 /* README.md */,
+				7E230B4315BF01CE006C3812 /* SRSCPISample-Info.plist */,
+				7E230B4415BF01CE006C3812 /* InfoPlist.strings */,
+				7E230B4715BF01CE006C3812 /* main.m */,
+				7E230B4915BF01CE006C3812 /* SRSCPISample-Prefix.pch */,
+				7E230B4A15BF01CE006C3812 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E230B5E15BF01CE006C3812 /* SRSCPISampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E230B6415BF01CE006C3812 /* SRSCPISampleTests.h */,
+				7E230B6515BF01CE006C3812 /* SRSCPISampleTests.m */,
+				7E230B5F15BF01CE006C3812 /* Supporting Files */,
+			);
+			path = SRSCPISampleTests;
+			sourceTree = "<group>";
+		};
+		7E230B5F15BF01CE006C3812 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E230B6015BF01CE006C3812 /* SRSCPISampleTests-Info.plist */,
+				7E230B6115BF01CE006C3812 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7E230B6F15BF0280006C3812 /* ProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				7E230B7015BF0292006C3812 /* SRSColorProgressIndicatorView.h */,
+				7E230B7115BF0292006C3812 /* SRSColorProgressIndicatorView.m */,
+			);
+			name = ProgressIndicator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E230B3615BF01CD006C3812 /* SRSCPISample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E230B6915BF01CE006C3812 /* Build configuration list for PBXNativeTarget "SRSCPISample" */;
+			buildPhases = (
+				7E230B3315BF01CD006C3812 /* Sources */,
+				7E230B3415BF01CD006C3812 /* Frameworks */,
+				7E230B3515BF01CD006C3812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRSCPISample;
+			productName = SRSCPISample;
+			productReference = 7E230B3715BF01CD006C3812 /* SRSCPISample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E230B5715BF01CE006C3812 /* SRSCPISampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E230B6C15BF01CE006C3812 /* Build configuration list for PBXNativeTarget "SRSCPISampleTests" */;
+			buildPhases = (
+				7E230B5315BF01CE006C3812 /* Sources */,
+				7E230B5415BF01CE006C3812 /* Frameworks */,
+				7E230B5515BF01CE006C3812 /* Resources */,
+				7E230B5615BF01CE006C3812 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E230B5D15BF01CE006C3812 /* PBXTargetDependency */,
+			);
+			name = SRSCPISampleTests;
+			productName = SRSCPISampleTests;
+			productReference = 7E230B5815BF01CE006C3812 /* SRSCPISampleTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E230B2E15BF01CD006C3812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SRS;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Srs Biznas, LLC";
+			};
+			buildConfigurationList = 7E230B3115BF01CD006C3812 /* Build configuration list for PBXProject "SRSCPISample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7E230B2C15BF01CD006C3812;
+			productRefGroup = 7E230B3815BF01CD006C3812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E230B3615BF01CD006C3812 /* SRSCPISample */,
+				7E230B5715BF01CE006C3812 /* SRSCPISampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E230B3515BF01CD006C3812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E230B4615BF01CE006C3812 /* InfoPlist.strings in Resources */,
+				7E230B4C15BF01CE006C3812 /* Credits.rtf in Resources */,
+				7E230B5215BF01CE006C3812 /* MainMenu.xib in Resources */,
+				7E230B7615BF0311006C3812 /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E230B5515BF01CE006C3812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E230B6315BF01CE006C3812 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E230B5615BF01CE006C3812 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E230B3315BF01CD006C3812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E230B4815BF01CE006C3812 /* main.m in Sources */,
+				7E230B4F15BF01CE006C3812 /* SRSAppDelegate.m in Sources */,
+				7E230B7215BF0292006C3812 /* SRSColorProgressIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E230B5315BF01CE006C3812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E230B6615BF01CE006C3812 /* SRSCPISampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E230B5D15BF01CE006C3812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E230B3615BF01CD006C3812 /* SRSCPISample */;
+			targetProxy = 7E230B5C15BF01CE006C3812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E230B4415BF01CE006C3812 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E230B4515BF01CE006C3812 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7E230B4A15BF01CE006C3812 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E230B4B15BF01CE006C3812 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7E230B5015BF01CE006C3812 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E230B5115BF01CE006C3812 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		7E230B6115BF01CE006C3812 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E230B6215BF01CE006C3812 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E230B6715BF01CE006C3812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7E230B6815BF01CE006C3812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7E230B6A15BF01CE006C3812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SRSCPISample/SRSCPISample-Prefix.pch";
+				INFOPLIST_FILE = "SRSCPISample/SRSCPISample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7E230B6B15BF01CE006C3812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SRSCPISample/SRSCPISample-Prefix.pch";
+				INFOPLIST_FILE = "SRSCPISample/SRSCPISample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7E230B6D15BF01CE006C3812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SRSCPISample.app/Contents/MacOS/SRSCPISample";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SRSCPISample/SRSCPISample-Prefix.pch";
+				INFOPLIST_FILE = "SRSCPISampleTests/SRSCPISampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		7E230B6E15BF01CE006C3812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SRSCPISample.app/Contents/MacOS/SRSCPISample";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SRSCPISample/SRSCPISample-Prefix.pch";
+				INFOPLIST_FILE = "SRSCPISampleTests/SRSCPISampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E230B3115BF01CD006C3812 /* Build configuration list for PBXProject "SRSCPISample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E230B6715BF01CE006C3812 /* Debug */,
+				7E230B6815BF01CE006C3812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E230B6915BF01CE006C3812 /* Build configuration list for PBXNativeTarget "SRSCPISample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E230B6A15BF01CE006C3812 /* Debug */,
+				7E230B6B15BF01CE006C3812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E230B6C15BF01CE006C3812 /* Build configuration list for PBXNativeTarget "SRSCPISampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E230B6D15BF01CE006C3812 /* Debug */,
+				7E230B6E15BF01CE006C3812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E230B2E15BF01CD006C3812 /* Project object */;
+}
