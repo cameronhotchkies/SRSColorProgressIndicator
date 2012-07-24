@@ -459,6 +459,7 @@
 				7E230B6B15BF01CE006C3812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E230B6C15BF01CE006C3812 /* Build configuration list for PBXNativeTarget "SRSCPISampleTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +468,7 @@
 				7E230B6E15BF01CE006C3812 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
