@@ -100,6 +100,12 @@
 
 - (void)setIsSpinning:(BOOL)value
 {
+    // If it is already spinning, no need to reset
+    if (isSpinning == value)
+    {
+        return;
+    }
+    
     isSpinning = value;
     
     if (value == YES)
